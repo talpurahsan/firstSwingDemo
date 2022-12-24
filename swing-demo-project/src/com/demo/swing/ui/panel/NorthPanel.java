@@ -1,15 +1,18 @@
 package com.demo.swing.ui.panel;
 
+import java.awt.Color;
 import java.awt.FlowLayout;
 
 import javax.swing.JLabel;
 import javax.swing.JPanel;
+import javax.swing.border.LineBorder;
 
 public class NorthPanel extends JPanel {
 
 	public NorthPanel() {
 		super(new FlowLayout(FlowLayout.CENTER));
-		add(new JLabel("Central Panel"));
+		setBorder(new LineBorder(Color.BLACK));
+		add(new JLabel("North Panel"));
 	}
 
 	
