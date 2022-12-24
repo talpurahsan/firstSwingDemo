@@ -9,8 +9,9 @@ public class MainFrame extends JFrame {
 	public MainFrame() throws HeadlessException {
 		super();
 		setTitle("MainFrame");
-		setSize(200, 200);
+		setSize(500, 200);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		setLocationRelativeTo(null);
 		
 	}
 
