@@ -1,10 +1,12 @@
 package com.demo.swing.app;
 
+import com.demo.swing.ui.MainFrame;
+
 public class App {
 
 	public static void main(String[] args) {
-		System.out.println("Hello World!");
-		System.out.println("This is Ahsan here.");
+		MainFrame mainFrame = new MainFrame();
+		mainFrame.setVisible(true);
 	}
 
 }
